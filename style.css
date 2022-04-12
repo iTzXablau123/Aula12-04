@@ -1,0 +1,38 @@
+.app{
+    display: grid;
+    grid-template-areas: 
+    "cabecalho cabecalho cabecalho"
+    "propaganda conteudo conteudo"
+    "rodape conteudo conteudo";
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-gap: 15px 50px
+}
+
+.cabecalho{
+    grid-area: cabecalho;
+    border: solid 1px #000000;
+    background-color: violet;
+    color: black;
+}
+
+.propaganda{
+    grid-area: propaganda;
+    border: solid 1px #000000;
+    background-color: violet;
+    color: black;
+}
+
+.conteudo{
+    grid-area: conteudo;
+    border: solid 1px #000000;
+    background-color: violet;
+    color: black;
+}
+
+.rodape{
+    grid-area: rodape;
+    border: solid 1px #000000;
+    background-color: violet;
+    color: black;
+}
